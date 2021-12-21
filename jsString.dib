@@ -1,0 +1,145 @@
+#!javascript
+
+ s = "Abhishek"
+
+#!markdown
+
+Substring
+
+#!javascript
+
+s1 = s.substring(2,5)
+console.log(s1)
+
+#!javascript
+
+s2 = s.substring(4, 7)
+console.log(s2)
+
+#!javascript
+
+s3 = s.substring(0)
+console.log(s3)
+
+#!javascript
+
+s3 = s.substring(0)
+console.log(s3)
+
+#!javascript
+
+s4 = s.substring(5,2)
+console.log(s4)
+
+#!javascript
+
+s5 = s.substring(10,20)
+console.log(s5)
+
+#!markdown
+
+Slice
+
+#!javascript
+
+slice1 = s.slice(2,5)
+console.log(slice1)
+
+#!javascript
+
+slice2 = s.slice(0)
+console.log(slice2)
+
+#!javascript
+
+slice3 = s.slice(5,2)
+console.log(slice3)
+
+#!javascript
+
+slice4 = s.slice(-6,-3)
+console.log(slice4)
+
+#!javascript
+
+slice5 = s.slice(-4,-1)
+console.log(slice5)
+
+#!markdown
+
+substr 
+
+#!javascript
+
+sub1 = s.substr(2,3)
+console.log(sub1)
+
+#!javascript
+
+sub2 = s.substr(-6,3)
+console.log(sub2)
+
+#!javascript
+
+sub3 = s.substr(-6)
+console.log(sub3)
+
+#!markdown
+
+Integer value of characters: 
+"A" 
+Binary Numbers: 
+1 => 1
+2 => 10
+3  > 11
+4 > 100
+ASCII codes: 
+// A - Z => 65 - 90
+// a- z => 97 - 122 
+// "0" - "9" => 48 - 57
+" " =>32
+
+#!markdown
+
+Relation Opraters in Strings
+
+#!javascript
+
+console.log("A" > "B")
+
+#!javascript
+
+console.log("A" > "a")
+
+#!javascript
+
+console.log("A" > "0")
+
+#!javascript
+
+console.log(s.toUpperCase())
+
+#!javascript
+
+console.log(s.toLowerCase())
+
+#!javascript
+
+su1 = "Abhishek"
+// convert character to its ASCII value
+console.log(su1.charCodeAt(7))
+// console.log(su1 - 32)
+
+#!javascript
+
+n = 60
+// convert ASCII value to character
+console.log(String.fromCharCode(n))
+
+#!javascript
+
+ch = "A" 
+// convert character to its ASCII value
+ascci = ch.charCodeAt(0) // 65 
+ascci = ascci + 32 // 97
+console.log(String.fromCharCode(ascci))
